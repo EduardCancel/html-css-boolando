@@ -26,17 +26,25 @@
 
 /* #region box-section */
 
+main{
+    max-width: 1200px;
+    margin: 0;
+    padding: 20px;
+}
 .prducts{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center;
+    justify-content: space-around;
+    width: 1200px;
+    margin: 0 auto;
 }
 
 .product{
     padding: 20px;
     text-align: center;
-    width: 300px;
+    width: 400px;
+    flex-grow: 1;
 }
 
 .product img{
@@ -45,7 +53,7 @@
 }
 
 .product h3{
-    
+
     font-size: 18px;
 }
 
