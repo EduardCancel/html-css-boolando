@@ -32,18 +32,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 5px;
-    padding: 4rem;
+    gap: 10px;
+    padding: 3rem;
 }
 
 .box{
     background-color: yellow;
     display: flex;
     box-shadow: 3px 3px 3px 3px black;
+    max-width: 100%;
     
 }
 
 .img-dbg{
-    max-width: 100%;
+    max-width: 40%;
     justify-content: center;
 }
