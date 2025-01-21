@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
 }
-
+/* #region Header */
 .d-flex{
     display: flex;
     align-items: center;
@@ -11,16 +11,39 @@
 }
 
 .header{
-    padding: 10px;
+    padding: 20px;
     background-color: orange;
 }
 
-.container{
+.content-img{
+    display: flex;
+    justify-content: center;
+    .logo-hd{
+        max-width:20%;
+    }
+}
+/* #endregion Header */
+
+/* #region box-section */
+
+.box-section{
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 4rem;
+}
+
+.box{
     background-color: yellow;
-    margin: 0 auto;
-}   
+    display: flex;
+    box-shadow: 3px 3px 3px 3px black;
+    
+}
 
-
-.logo-hd{
-    max-width:20%;
+.img-dbg{
+    max-width: 100%;
+    justify-content: center;
 }
