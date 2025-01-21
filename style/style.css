@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header{
+    padding: 10px;
+    background-color: orange;
+}
+
+.container{
+    background-color: yellow;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}   
+
+
+.logo-hd{
+    max-width:20%;
+}
